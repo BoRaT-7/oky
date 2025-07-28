@@ -26,12 +26,10 @@ function sumofnumber (numbers){
 const numbs = [2,4,6,8]
 const sum = sumofnumber(numbs);
 console.log('Sum of number is', sum);
-
-
-const heights = [ 55, 78,12,40,99,100]
+ heights = [ 55, 78,12,40,99,100]
 
 function getMax(fullnumbers){
     console.log(fullnumbers);
 }
-  const max = getMax (fullnumbers);
+ max = getMax (fullnumbers);
 console.log('max value is ', max);
