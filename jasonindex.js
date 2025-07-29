@@ -22,3 +22,16 @@ function displayuser(data){
     }
     
 }
+
+
+//onno akta server theke data ane li te dkano 
+
+function displayuser(data){
+    const ul = document.getElementById('user_list');
+    for(const user of data){
+        console.log(user.name);
+        const li = document.createElement('li');
+        li.innerText = user.name;
+        ul.appendChild(li);
+    }
+}
